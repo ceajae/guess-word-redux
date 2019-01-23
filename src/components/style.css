@@ -1,0 +1,118 @@
+body{
+  position: relative;
+    margin: 0;
+}
+.header{
+  display: flex;
+  justify-content:center;
+  margin: 0;
+  height: 60px;
+  background-color: #50D37B;
+
+}
+
+.liveBar{
+  margin-top: 8px;
+  width: 35px;
+  height: 15px;
+  background-color: #D7AF1C;
+  padding:10px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.barArray{
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  height: 50px;
+  margin: 0 auto ;
+  background-color: #558712;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.letterInput{
+  height: 80px;
+  width:80px;
+  font-family: cursive;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.gameDeck{
+  display: inline-block;
+  justify-content: center;
+  position:absolute;
+  right:0;
+  left: 0;
+  top:120px;
+  width:1000px;
+  margin: 0 auto;
+}
+
+
+.gameStart{
+  width: 150px;
+  height: 50px;
+
+}
+.gameDeckText{
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  margin: 0 auto ;
+  margin-top: 3px;
+}
+
+.gameStartBlock{
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin: 0 auto ;
+  margin-top: 10px;
+  max-height: 10px;
+}
+.gameStartBlock button{
+  border-radius: 5px;
+  font-family: serif;
+  font-size:30px;
+  background-color: #DC545E;
+  color: #ffffff;
+  border: 2px solid black;
+}
+
+.gameDeckText p{
+  font-size: 40px;
+  font-family: monospace;
+}
+.inputBlockTray{
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  margin:0 auto ;
+  margin-top:60px;
+}
+
+.inputBlock{
+  height: 80px;
+  margin: 1px;
+  font-family: cursive;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.hint{
+  height: 50px;
+  width: 100px;
+  background-color: #CB0D18;
+  color: #ffffff;
+  font-size: 25px;
+  border: 3px solid black;
+  margin-top: 100px;
+  margin-left:440px;
+}
